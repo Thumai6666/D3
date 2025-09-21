@@ -1,0 +1,49 @@
+/* style.css */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  background: #fafafa;
+  color: #222;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+  margin: 18px auto;
+  padding: 12px;
+}
+
+.chart-container svg {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  display: block;
+}
+
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  pointer-events: none;
+  line-height: 1.4;
+  visibility: hidden;
+  max-width: 320px;
+}
+
+/* Label bên trái (mặt hàng) */
+.yLabel {
+  font-size: 13px;
+  fill: #222;
+}
+
+/* Value text trên thanh */
+.barValue {
+  font-size: 12px;
+  fill: #000;
+  font-weight: 500;
+}
